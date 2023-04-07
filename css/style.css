@@ -1,0 +1,90 @@
+
+nav .nav-link:active{
+    color: orangered;
+}
+.header-section{
+    background: url(../img/background_img_2.jpg);
+    padding-top: 200px;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.header-section .container{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+.vision-section{
+    background-color: rgb(12, 149, 151);
+    overflow-x: hidden;
+}
+.vision-text{
+    padding-top: 70px;
+}
+.happy-clients{
+    background: url(../img/image_7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.happy-clients-container{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.for-sale-section{
+    background-color: rgb(42, 44, 44);
+}
+.property-text{
+    color: goldenrod
+}
+.for-sale-section img{
+   height: 300px;
+}
+.line-hr{
+    color: goldenrod;
+}
+.house-type{
+    color: rgb(165, 139, 73);
+}
+.street-address{
+   color: rgb(165, 139, 73);
+}
+.home-description{
+    color: rgb(165, 139, 73);
+}
+.for-rent-section{
+    background-color: rgb(42, 44, 44);
+}
+.for-rent-section img{
+   height: 300px;
+}
+.about-section{
+    background-color: rgb(12, 149, 151);
+}
+.bg-green, .btn-green{
+   background-color: rgb(12, 149, 151);
+ }
+ .btn-green:hover{
+    border-color: rgb(12, 149, 151);
+ }
+ .contact-us{
+    background: url(../img/property6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .contact-card{
+    border-color: rgb(12, 149, 151);
+    border-width: 3px;
+    
+ }
+ input:focus{
+    outline: none;
+ }
+textarea:focus{
+    outline: none;
+}
+.card-img{
+    position: relative;
+}
+.view-property-btn{
+    display:none;
+}
+.col-lg-4:hover .view-property-btn{
+    display: inline-block;
+}
